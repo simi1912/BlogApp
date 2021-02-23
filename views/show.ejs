@@ -1,3 +1,4 @@
+  
 <%- include("partials/header") %>
 
 <div class="ui main text container segment">
@@ -15,6 +16,8 @@
             <div class="description">
                 <p><%= blog.body %> </p>
             </div>
+            
+            <a href="/blogs/<%= blog._id %>/edit">Edit Post</a>
             
         </div>
         
